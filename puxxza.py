@@ -18,7 +18,7 @@ CONFIG_FILE       = "Config.json"
 KEY_FILE          = "license.json"
 
 # ===== URL ของ Bot API — แก้เป็น IP เซิร์ฟเวอร์ของคุณ =====
-BOT_API_URL = os.getenv("BOT_API_URL", "https://YOUR-APP-NAME.onrender.com")
+BOT_API_URL = os.getenv("BOT_API_URL", "https://puxxza-bot.onrender.com")
 
 # ===== ตัวแปร Global =====
 webhook_url          = None
