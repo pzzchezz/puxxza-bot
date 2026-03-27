@@ -21,10 +21,10 @@ from database import (
 # ========================================================
 #  CONFIG
 # ========================================================
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "")
-INWCLOUD_KEY  = os.getenv("INWCLOUD_API_KEY", "")
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "MTQ4NzE2Mjk4NDkwNzQwNzU2MQ.Gyblxn.TmDop5ThC2n3AGfw9EeQ8W9ygUdIORl-BILMtk")
+INWCLOUD_KEY  = os.getenv("INWCLOUD_API_KEY", "inwcloud_live_09b278f284623514173b766d62caaf5d6b7db31e")
 PORT          = int(os.getenv("PORT", "8080"))           # Render inject PORT อัตโนมัติ
-ADMIN_IDS     = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip().isdigit()]
+ADMIN_IDS     = [int(x) for x in os.getenv("ADMIN_IDS", "700238632681734144").split(",") if x.strip().isdigit()]
 
 INWCLOUD_BASE = "https://api.inwcloud.shop"
 BOT_NAME      = "PUXXZATJ"
