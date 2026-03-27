@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timedelta
 
 # Render.com mount persistent disk ที่ /data
-DATA_DIR = os.getenv("DATA_DIR", "/data")
+DATA_DIR = os.getenv("DATA_DIR", "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 DB_FILE = os.path.join(DATA_DIR, "puxxza.db")
 
